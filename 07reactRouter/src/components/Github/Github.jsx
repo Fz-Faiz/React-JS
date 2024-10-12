@@ -15,7 +15,7 @@ function GitHub(){
     // },[])
     return(
 
-        <div className="bg-gray-500 text-white text-3xl p-5 hover:bg-red-600 hover:text-white hover:text-5xl hover:shadow-2xl">Github followers : <b>{data.followers} <img src={data.avatar_url}alt="Git picture" width={300}/></b></div>
+        <div className="bg-gray-500 text-white text-3xl p-5 hover:text-white hover:text-5xl shadow-2xl hover:shadow-inner inset-7">Github followers : <b>{data.followers} <img src={data.avatar_url}alt="Git picture" width={300}/></b></div>
         
     )
 }

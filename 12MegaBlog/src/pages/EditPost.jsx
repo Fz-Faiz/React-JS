@@ -15,7 +15,7 @@ function EditPost(){
                 }
             })
         }else{
-            navigate('/')
+            navigate('/');
         }
     },[slug,navigate])
     return post?(
@@ -25,7 +25,7 @@ function EditPost(){
 
             </Container>
         </div>
-    )
+    ):null
 }
 
 export default EditPost
